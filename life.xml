@@ -1,0 +1,24 @@
+i
+public class DemoProg {
+
+	static void life()
+	{
+		System.out.println("My name is harshal");
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+	life();
+	DemoProg p1=new DemoProg();
+	
+
+		
+	
+	
+	}
+}
+
+
+
