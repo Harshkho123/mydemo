@@ -24,8 +24,13 @@ public class DemoProg {
 	double value=p1.price(500,700);
 	System.out.println(value);
 		
+<<<<<<< HEAD
 	
 	
+=======
+ System.out.println(value);
+		
+>>>>>>> 5b61a5f (my 2 file)
 	}
 }
 
