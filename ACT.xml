@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScInput xmlns="SwitchControl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="SwitchControl ScInput.xsd">
+  <Order type="interactive" count="1">
+    <ProvisioningRequest>
+      <Header>
+        <marketCode>DLS</marketCode>
+        <timeStamp>2018-10-19T01:00:06</timeStamp>
+        <effDateTime>2018-10-19T01:00:06</effDateTime>
+        <srvTrxType>DAC</srvTrxType>
+        <trxSource>CSM</trxSource>
+        <userId>4470</userId>
+        <subscriberNo>2129598431</subscriberNo>
+        <nbiInd>N</nbiInd>
+      </Header>
+      <SubscriberData state="new">
+        <subscriberNo>2129598431</subscriberNo>
+        <SubscriberGeneralStr FldSource="F">FTRCD=PPS@COS=42@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IOP@POLICY=ABR2@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VM@VMCOS=E300@GVMCOS=F800@USER-NAME=XML PREPAID@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFC@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=HOLD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CLI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CW@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MPTY@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MWI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@OCOS20=Y@TCOS20=Y@USER-NAME=XML PREPAID@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@COS=SMS@GCOS=ALP@USER-NAME=XML PREPAID@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IC@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=HSS@APNCOS=PHONE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=NXTGENPHONE@APN_NAME=nxtgenphone@DEFPOLICY=Y@OCS=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=OCSTRK@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=02@APN_NAME=wap.cingular@NOWAP=Y@OCS=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=PHONE@APN_NAME=phone@DEFPOLICY=Y@OCS=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IOP@POLICY=NOTFD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VCTS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=IMS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VOLTE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">GENSCCD=OAA@SUBMKT=GAI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">GENSCCD=OAA@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">customer_id=177268653983@product_type=G@billing_market=DLS@ixc_code=9068@dealer_code=FCCNT@subscriber_type=G@ban=177268653983@customer_type=I@log_imsi_hlr=DUM@sim=89011803270010001880@imsi=311180001000188@ported_ind=RE@sub_market_code=GAI@imei=358843060000000@stk_capable=1@first_name=XML@last_business_name=PREPAID@private_id=311180001000188*private.att.net@public_id=2129598431*one.att.net@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">public_id_2=311180001000188*one.att.net@log_vm=DAP3@mnet_subid=T_DLS_GAI_1540939339000344181098@nset_dvc_cap=4@lte_sub_ind=Y@lte_type=7@imei_type=P9@ip_ver_cap=7@epc_hss_id=HS3@ims_hss_id=IH2@alu_cts_id=VCTS@ims_cpm_id=CPM2@default_apn=PHONE@logical_switch=DUM@logical_vm_id=DAP3@lrn=9403669999@time_zone_code=06@daylight_saving_ind=Y@sid=30036@hlr_pool_id=TEX@logical_epc_hss=HS3@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">logical_ims_hss=IH2@logical_alu_cts=SC01@logical_ims_cpm=CPM2@lata=548@mta=7@</SubscriberGeneralStr>
+      </SubscriberData>
+      <SubscriberData state="current">
+        <subscriberNo>2129598431</subscriberNo>
+        <SubscriberGeneralStr FldSource="G">product_type=G@</SubscriberGeneralStr>
+      </SubscriberData>
+    </ProvisioningRequest>
+  </Order>
+</ScInput>
+
