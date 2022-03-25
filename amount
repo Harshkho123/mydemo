@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> sprint2
 public class DemoProg {
 
 	static void rule()
@@ -10,11 +14,19 @@ public class DemoProg {
 		System.out.println("jaya mata dii");
 		
 		double tamount= amount + marks;
+<<<<<<< HEAD
 		return tamount;
 	}
 	
 	
 	
+=======
+		double gstbill=tamount + 18*tamount;
+		return tamount + gstbill;
+	}
+	
+	
+>>>>>>> sprint2
 	public static void main(String[] args) {
 		
 	rule();
@@ -23,8 +35,18 @@ public class DemoProg {
 	double value=p1.price(500,700);
 	System.out.println(value);
 		
+<<<<<<< HEAD
  System.out.println(value);
 		
+=======
+<<<<<<< HEAD
+	
+	
+=======
+ System.out.println(value);
+		
+>>>>>>> 5b61a5f (my 2 file)
+>>>>>>> sprint2
 	}
 }
 

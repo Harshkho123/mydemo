@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScInput xmlns="SwitchControl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="SwitchControl ScInput.xsd">
+  <Order type="interactive" count="1">
+    <ProvisioningRequest>
+      <Header>
+        <marketCode>STL</marketCode>
+        <timeStamp>2022-02-05T01:00:19</timeStamp>
+        <effDateTime>2022-02-05T01:00:19</effDateTime>
+        <srvTrxType>RSA</srvTrxType>
+        <trxSource>CSM</trxSource>
+        <userId>30217</userId>
+        <subscriberNo>5739324981</subscriberNo>
+        <nbiInd>N</nbiInd>
+      </Header>
+      <SubscriberData state="new">
+        <subscriberNo>5739324981</subscriberNo>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VCTS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VM@VMCOS=F800@GVMCOS=F800@VVMCOS=248@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFC@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=HOLD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CLI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CW@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MPTY@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MWI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IPMESV@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=PVWIFI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IPMESV@WAVE2=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ENB@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=IR94VC@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=02@APN_NAME=wap.cingular@NOWAP=Y@OCS=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@OCOS20=Y@TCOS20=Y@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@COS=ALP@GCOS=ALP@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=UCE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=UCE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=IMS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VOLTE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=PVWIFI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">GENSCCD=OAA@SUBMKT=LKO@</SubscriberGeneralStr>
+	<SubscriberGeneralStr FldSource="G">customer_id=383023778092@product_type=G@billing_market=STL@ixc_code=5475@dealer_code=FCCNT@subscriber_type=R@nl=FCCNT@ban=383023778092@customer_type=I@sim=89014104279999999999@imsi=202203140620540@ported_ind=RE@sub_market_code=LKO@imei=001000420000000@stk_capable=1@first_name=TEST@last_business_name=EMERALD@private_id=202203140620540*ims.cingularme.com@public_id=5739324981*one.att.net@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">public_id_2=202203140620540*one.att.net@mnet_subid=T_STL_LKO_164726406200069808988@nset_dvc_cap=4@lte_sub_ind=Y@lte_type=4@imei_type=PA@ip_ver_cap=7@default_apn=IMS@cycle_code=3@cycle_close_day=6@logical_switch=DUM@logical_vm_id=SAP1@lrn=5732200000@time_zone_code=06@daylight_saving_ind=Y@sid=31027@hlr_pool_id=MOK@logical_epc_hss=HC1@logical_ims_hss=IH2@logical_alu_cts=NC01@logical_ims_cpm=CPM2@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">lata=520@mta=19@</SubscriberGeneralStr>
+      </SubscriberData>
+      <SubscriberData state="current">
+        <subscriberNo>5739324981</subscriberNo>
+        <SubscriberGeneralStr FldSource="G">product_type=G@</SubscriberGeneralStr>
+      </SubscriberData>
+    </ProvisioningRequest>
+  </Order>
+</ScInput>
+
+
