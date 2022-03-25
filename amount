@@ -1,0 +1,31 @@
+
+public class DemoProg {
+
+	static void rule()
+	{
+		System.out.println("My name is harshal");
+	}
+	
+	double price(int amount, int marks)
+	{
+		System.out.println("jaya mata dii");
+		
+		double tamount= amount + marks;
+		double gstbill=tamount + 18*tamount;
+		return tamount + gstbill;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	rule();
+	DemoProg p1=new DemoProg();
+	
+	double value=p1.price(500,700);
+	System.out.println(value);
+		
+	
+	
+	}
+}
+
