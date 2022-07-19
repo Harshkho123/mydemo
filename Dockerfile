@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From openjdk:8-alpine
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
+MAINTAINER "harshkhode2589@gmail.com" 
 ADD https://harshalkho.jfrog.io/artifactory/Mytestrepo/webapp.war /opt/docker
