@@ -217,4 +217,16 @@
     <maven>3.0.3</maven>
   </prerequisites>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0hqeqoxauo2f-artifactory-primary-0-releases</name>
+        <url>https://harshalkho.jfrog.io/artifactory/switchproject-libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0hqeqoxauo2f-artifactory-primary-0-snapshots</name>
+        <url>https://harshalkho.jfrog.io/artifactory/switchproject-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
